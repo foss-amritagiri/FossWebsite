@@ -38,4 +38,24 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  bottom: 0;
+  position: absolute;
+  align: centre;
+}
+
+.fa {
+  padding-bottom: 5px;
+  width: 0px;
+  position: relative;
+}
+
+footer .credit {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
