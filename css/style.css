@@ -122,7 +122,7 @@ section {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image: url(../imgs/bg.jpg);
+  background-image: url(../imgs/bg_1.jpg);
   background-color: #80a3db;
 }
 
@@ -137,7 +137,7 @@ h2 {
 }
 
 .hero h2 {
-  font: bold 60px "Open Sans" , sans-serif;
+  font: bold 30px "Open Sans" , sans-serif;
   margin-bottom: 40px;
 }
 
@@ -196,7 +196,7 @@ footer ul li {
 }
 
 footer p {
-  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   opacity: 0.6;
   -ms-flex-item-align: center;
