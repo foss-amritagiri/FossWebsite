@@ -103,8 +103,13 @@ section {
     margin-bottom: 15px ;
 }
 
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:26px;
+}
+
 .hero h2 { 
-    font: normal 26px "Open Sans" , sans-serif ;
+    font: bold 60px "Open Sans" , sans-serif ;
     margin-bottom: 40px ;
 }
 
@@ -168,6 +173,13 @@ footer p {
         flex-direction: column ;
     }
 
+    nav{
+        padding:15px;
+        
+    }
+h2{
+    padding-top:30px;
+}
 
 .hero h1 { 
     font-size: 48px ;
