@@ -223,6 +223,7 @@ footer p {
   }
   .hero h1 {
     font-size: 48px;
+    margin-bottom: -15px;
   }
   .hero {
     min-height: 600px;
