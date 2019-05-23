@@ -51,4 +51,29 @@ nav li a {
   font-family: "Open Sans" , sans-serif;
   color: #fff;
 }
+
+.container .icon {
+  float: right;
+  margin-left: 15px;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav li a {
+    display: none;
+  }
+  .container a.icon {
+    float: right;
+    display: block;
+    padding-top: 20px;
+  }
+  h1 {
+    float: left;
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .top, a {
+    margin-left: 10px;
+  }
+}
 /*# sourceMappingURL=about.css.map */
