@@ -24,16 +24,32 @@ body {
 }
 
 .topnav a:hover {
-  color: black;
+  color: rgb(211, 209, 209);
 }
 
 .topnav .icon {
   display: none;
 }
-.topnav .active,.active a{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size:16px;
+h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align:center;
+}
+p{
+  font-family:sans-serif;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+.topnav .active {
+   
     float:left;
+    font-size: 20px
 }
 
 @media screen and (max-width: 600px) {
@@ -41,6 +57,7 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    font-size: 19px;
   }
 }
 
@@ -49,11 +66,54 @@ body {
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 23px;
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+li { 
+  list-style: none;
+}
+
+footer {
+  display: flex ;
+  align-items: center ;
+  justify-content: space-around ;
+  background-color: #000000 ;
+  color : #fff ; 
+  padding: 20px 0 ;
+}
+
+footer ul {
+  display: flex ;
+
+}
+
+footer ul li { 
+  margin-left: 16px ;
+}
+footer p { 
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px ;
+  opacity: 0.6;
+  align-self: center;
+}
+
+@media screen and (max-width : 600px) { 
+  footer { 
+      flex-direction: column ;
+  }
+
+  footer p  {
+      text-align: center ; 
+      margin-bottom: 20px ;
+  }
+
+  footer ul li { 
+      margin: 0 8px ;
   }
 }
