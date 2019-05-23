@@ -3,81 +3,65 @@ body {
   font-family: sans-serif;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #333;
+.topnav {
   overflow: hidden;
+  background-color: #333;
 }
 
-.container::after {
-  content: " ";
+.topnav::after {
+  content: "";
   display: table;
   clear: both;
 }
 
-.top, a {
-  float: left;
-  color: #fff;
-  margin-left: 25px;
-  text-decoration: none;
-}
-
-h1 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 26px;
-}
-
-nav {
+.topnav a {
   float: right;
-  margin-right: 50px;
-}
-
-nav ul {
-  margin: 0px;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 20px;
-  padding-top: 30px;
-}
-
-nav li a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 14px;
   font-family: "Open Sans" , sans-serif;
-  color: #fff;
 }
 
-.container .icon {
-  width: 100%;
-  padding: 10px 12px;
+.topnav a:hover {
+  color: black;
+}
+
+.topnav .icon {
   display: none;
 }
 
+.topnav .active, .active a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  float: left;
+}
+
 @media screen and (max-width: 600px) {
-  nav li a {
+  .topnav a:not(:first-child) {
     display: none;
   }
-  .container a.icon {
+  .topnav a.icon {
     float: right;
     display: block;
-    padding-top: 20px;
   }
-  h1 {
-    float: left;
-    font-size: 15px;
-    margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
   }
-  nav, nav ul {
-    margin-right: -30px;
-    margin: -14px;
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  .top, a {
-    margin-left: 10px;
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
 /*# sourceMappingURL=about.css.map */
