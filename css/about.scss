@@ -4,52 +4,50 @@ body{
 }
 
 .container{
-    width:85%;
+    width:100%;
     margin:0 auto;
+    background-color: #333;
+    overflow:hidden;
 }
-
-header{
-    background: #000000;
-    z-index: 2;
-    position: absolute ;
-    width: 100% ;
-    display: flex ; 
-    justify-content: space-between ;
-   
-}
-header::after{
-    content:"";
+.container::after{
+    content:" ";
     display:table;
     clear: both;
 }
-head{
+
+.top,a{
     float:left;
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
 }
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:26px;
+}
+
 
 nav{
-    float: right;
-    display: flex ; 
-    margin-right: -15px ;
+    float:right;
+    margin-right: 50px
 }
+
 nav ul{
-    margin:0;
-    padding: 0;
+    margin:0px;
+    padding:0;
     list-style: none;
 }
+
 nav li{
-    display: inline-block;
-    margin-left: 7px;
-    padding-top: 20px;
+    display:inline-block;
+    margin-left: 20px;
+    padding-top:30px
 }
 
-nav a{
-    color:#fff;
+nav li a{
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-
-}
-
-nav a:hover{
-    color: #000000;
-}
+    font-size: 14px;
+    font-family: "Open Sans" , sans-serif;
+    color: #fff;
+}   
