@@ -53,8 +53,8 @@ nav li a{
 }   
 
 .container .icon{
-    float:right;
-    margin-left:15px;
+    width:100%;
+    padding:10px 12px;
     display:none;
 }
 
@@ -70,6 +70,10 @@ nav li a{
         float:left;
         font-size: 15px;
         margin-left: 0;
+    }
+    nav,nav ul{
+        margin-right: -30px;
+        margin:-14px;
     }
     .top,a{
         margin-left: 10px;
