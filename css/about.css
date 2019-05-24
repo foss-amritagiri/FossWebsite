@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #f5f5f5;
 }
 
 .topnav {
@@ -46,7 +47,7 @@ p {
   font-family: sans-serif;
   display: block;
   max-width: 80%;
-  text-align: center;
+  text-align: justify;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.5em;
@@ -77,6 +78,9 @@ p {
     right: 0;
     top: 23px;
   }
+  .topnav.topnav.responsive h1 {
+    margin-bottom: 2px;
+  }
   .topnav.responsive a {
     float: none;
     display: block;
@@ -84,6 +88,7 @@ p {
   }
 }
 
+/*footer*/
 li {
   list-style: none;
 }
@@ -121,6 +126,10 @@ footer p {
       align-self: center;
 }
 
+footer a {
+  color: #f2f2f2;
+}
+
 @media screen and (max-width: 600px) {
   footer {
     -webkit-box-orient: vertical;
@@ -130,10 +139,28 @@ footer p {
   }
   footer p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
   }
   footer ul li {
     margin: 0 8px;
+    font-size: 14px;
+  }
+  footer ul {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  li.small, li.large {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  li.small, li.large {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 /*# sourceMappingURL=about.css.map */
