@@ -55,6 +55,10 @@ body {
       float:left;
       font-size: 20px
   }
+  .list p{
+      text-align: justify;
+
+  }
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
