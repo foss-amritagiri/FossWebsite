@@ -116,6 +116,7 @@ body {
     footer { 
         flex-direction: column ;
         height:90px;
+        bottom:unset !important;
     }
   
     footer p  {
