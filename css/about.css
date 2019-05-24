@@ -104,13 +104,14 @@ footer {
       justify-content: space-around;
   background-color: #000000;
   color: #fff;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 35px;
 }
 
 footer ul li {
@@ -121,9 +122,7 @@ footer p {
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   opacity: 0.6;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  margin-left: 15px;
 }
 
 footer a {
