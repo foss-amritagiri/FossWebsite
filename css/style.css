@@ -122,7 +122,7 @@ section {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background-image: url(../imgs/bg.jpeg);
+  background-image: url(../imgs/bg1.jpeg);
   background-color: #80a3db;
 }
 
@@ -196,7 +196,7 @@ footer ul li {
 }
 
 footer p {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand",sans-serif;
   font-size: 14px;
   opacity: 0.6;
   -ms-flex-item-align: center;
@@ -233,6 +233,9 @@ footer p {
   }
   .hero a.btn {
     padding: 15px 40px;
+  }
+  .hero .bgc {
+    background-image: url(../imgs/bg.jpeg);
   }
 }
 

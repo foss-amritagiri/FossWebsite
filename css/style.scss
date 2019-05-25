@@ -100,7 +100,7 @@ section {
     height: 100%;
     width: 100% ;
     z-index: -1 ;
-    background-image: url(../imgs/bg.jpeg); 
+    background-image: url(../imgs/bg1.jpeg); 
     background-color: #80a3db ;
 }
 .hero h1 { 
@@ -177,6 +177,9 @@ h2{
 .hero a.btn { 
     padding: 15px 40px ;   
 }
+.hero .bgc{
+    background-image: url(../imgs/bg.jpeg);
+}
 }
 
 
@@ -210,4 +213,3 @@ h2{
         margin: 0 8px ;
     }
 }
-

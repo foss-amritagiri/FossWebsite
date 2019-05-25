@@ -1,7 +1,12 @@
+$font1:"Open Sans" , sans-serif;
+$font2:'IBM Plex Sans', sans-serif;
+$white:#fff;
+$bg-color:#f5f5f5;
+
 body {
     margin: 0;
     font-family:sans-serif;
-    background-color: #f5f5f5;
+    background-color: $bg-color;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='48' height='24' viewBox='0 0 48 24'%3E%3Cdefs%3E%3Crect stroke='%23f5f5f5' stroke-width='0' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23f5f5f5' stroke-width='0'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3Crect fill='%23f5f5f5' width='1' height='1' x='1' y='1'/%3E%3Crect fill='%23ebebeb' width='1' height='1' y='1'/%3E%3Crect fill='%23e6e6e6' width='1' height='1' x='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='b' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e1e1e1'%3E%3Cuse xlink:href='%23s' x='2' y='0'/%3E%3Cuse xlink:href='%23s' x='4' y='1'/%3E%3Cuse xlink:href='%23s' x='1' y='2'/%3E%3Cuse xlink:href='%23s' x='2' y='4'/%3E%3Cuse xlink:href='%23s' x='4' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='8'/%3E%3Cuse xlink:href='%23s' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23dcdcdc'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='3' y='4'/%3E%3Cuse xlink:href='%23s' x='5' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='6' y='3'/%3E%3Cuse xlink:href='%23s' x='8' y='2'/%3E%3Cuse xlink:href='%23s' x='3' y='0'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3Cg fill='%23d8d8d8'%3E%3Cuse xlink:href='%23s' x='8' y='3'/%3E%3Cuse xlink:href='%23s' x='4' y='2'/%3E%3Cuse xlink:href='%23s' x='5' y='4'/%3E%3Cuse xlink:href='%23s' x='10' y='0'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e7ffff'%3E%3Cuse xlink:href='%23s' x='2' y='5'/%3E%3Cuse xlink:href='%23s' x='23' y='13'/%3E%3Cuse xlink:href='%23s' x='4' y='18'/%3E%3Cuse xlink:href='%23s' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23e7ffff'%3E%3Cuse xlink:href='%23s' x='16' y='0'/%3E%3Cuse xlink:href='%23s' x='13' y='22'/%3E%3Cuse xlink:href='%23s' x='44' y='15'/%3E%3Cuse xlink:href='%23s' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='48' height='24'/%3E%3Crect fill='url(%23b)' width='48' height='24'/%3E%3Crect fill='url(%23c)' width='48' height='24'/%3E%3Crect fill='url(%23d)' width='48' height='24'/%3E%3Crect fill='url(%23e)' width='48' height='24'/%3E%3Crect fill='url(%23f)' width='48' height='24'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
@@ -24,26 +29,40 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
-    font-family: "Open Sans" , sans-serif;
+    font-family: $font1;
   }
   
   .topnav a:hover {
     color: rgb(211, 209, 209);
   }
-
-   
+  
+  .topnav .icon {
+    display: none;
+  }
   h1{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: $font2;
   }
   h2{
     font-family: 'Noto Sans JP', sans-serif;
-    text-align:center;
-  }
+    text-align: center;
+ }
   h3{
     text-align: center;
   }
+  .article .meta_tag{
+      font-style: italic;
+      text-align: center;
+  }
+  .box {
+      background-color: #A4B0BD;
+      border: #000000;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
   p{
-    font-family:sans-serif;
+    font-family:$font1;
     display: block;
     max-width: 80%;
     text-align: justify;
@@ -51,18 +70,36 @@ body {
     margin-right: auto;
     line-height: 1.5em;
   }
+  body .article{
+      max-width: 40em;
+      margin-left: auto;
+      margin-right: auto;
+  }
   .topnav .active {
      
       float:left;
       font-size: 20px
   }
-  .list p{
-      text-align: justify;
 
+  #more{
+      display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      font-size: 19px;
+    }
   }
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 23px;
     }
     .topnav.topnav.responsive h1{
       margin-bottom: 2px;
@@ -72,6 +109,9 @@ body {
       display: block;
       text-align: left;
     }
+
+  }
+  
   /*footer*/
   li { 
     list-style: none;
@@ -83,10 +123,7 @@ body {
     justify-content: space-around ;
     background-color: #000000 ;
     color : #fff ; 
-    width:100%;
-    position: absolute;
-    height:65px;
-    bottom: 0;
+    padding: 5px 0 ;
   }
   
   footer ul {
@@ -97,7 +134,6 @@ body {
   
   footer ul li { 
     margin-left: 16px ;
-    display: block;
   }
   
   footer p { 
@@ -108,6 +144,7 @@ body {
     
   }
   
+  
   footer a{
     color: #f2f2f2;
   }
@@ -115,8 +152,6 @@ body {
   @media screen and (max-width : 600px) { 
     footer { 
         flex-direction: column ;
-        height:90px;
-        bottom:unset !important;
     }
   
     footer p  {
@@ -128,12 +163,9 @@ body {
         margin: 0 8px ;
         font-size: 14px;
     }
-    footer ul li a{
-        font-size: 11px;
-    }
   
     footer ul{
-      margin-top:5px;
+      margin-right: 50px
     }
   }
   
