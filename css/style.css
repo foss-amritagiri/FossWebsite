@@ -127,17 +127,17 @@ section {
 }
 
 .hero h1 {
-  font: bold 60px "Open Sans" , sans-serif;
+  font: bold 60px "Open Sans", sans-serif;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 26px;
 }
 
 .hero h2 {
-  font: bold 30px "Open Sans" , sans-serif;
+  font: bold 30px "Open Sans", sans-serif;
   margin-bottom: 40px;
 }
 
@@ -196,7 +196,7 @@ footer ul li {
 }
 
 footer p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 14px;
   opacity: 0.6;
   -ms-flex-item-align: center;

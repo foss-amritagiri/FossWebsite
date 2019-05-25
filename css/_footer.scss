@@ -1,0 +1,23 @@
+footer {
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around ;
+    background-color: #000000 ;
+    color: $primary_color ; 
+    padding: 20px 0 ;
+}
+
+footer ul {
+    display: flex ;
+
+}
+
+footer ul li { 
+    margin-left: 16px ;
+}
+footer p { 
+    font-family: $font3;
+    font-size: 14px ;
+    opacity: 0.6;
+    align-self: center;
+}
