@@ -123,8 +123,9 @@ body {
     justify-content: space-around ;
     background-color: #000000 ;
     color : #fff ; 
-    bottom:0;
     width: 100%;
+    position: absolute;
+    bottom:0;
   }
   
   footer ul {
@@ -153,6 +154,8 @@ body {
   @media screen and (max-width : 600px) { 
     footer { 
         flex-direction: column ;
+        bottom:unset !important;
+        
     }
   
     footer p  {

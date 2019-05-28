@@ -134,8 +134,9 @@ footer {
       justify-content: space-around;
   background-color: #000000;
   color: #fff;
-  bottom: 0;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 footer ul {
@@ -166,6 +167,7 @@ footer a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    bottom: unset !important;
   }
   footer p {
     text-align: center;
