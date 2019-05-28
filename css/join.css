@@ -112,7 +112,7 @@ body {
     color: #f2f2f2;
   }
   
-  @media screen and (max-width : 600px) { 
+  @media screen and (max-width : 800px) { 
     footer { 
         flex-direction: column ;
         height:90px;
