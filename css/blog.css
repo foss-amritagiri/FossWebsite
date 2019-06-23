@@ -170,8 +170,6 @@ footer a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    bottom: unset !important;
-    position: unset !important;
   }
   footer p {
     text-align: center;
