@@ -97,6 +97,9 @@ body .article {
     display: block;
     font-size: 19px;
   }
+  .footer {
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -168,6 +171,7 @@ footer a {
         -ms-flex-direction: column;
             flex-direction: column;
     bottom: unset !important;
+    position: unset !important;
   }
   footer p {
     text-align: center;
